@@ -1,0 +1,5 @@
+{
+  "itemGroup.unwind": "Example Mod Tab",
+  "block.unwind.example_block": "Example Block",
+  "item.unwind.example_item": "Example Item"
+}

@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GNU GPL 3.0"
+
+[[mods]]
+modId="unwind"
+version="1.0.0"
+displayName="Unwind"
+authors="NiixLabs"
+description="Runtime execution telemetry, state provenance, and pre-unwind frame inspector."
+
+[[mixins]]
+config="unwind.mixins.json"
+
+[[dependencies.unwind]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.unwind]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"

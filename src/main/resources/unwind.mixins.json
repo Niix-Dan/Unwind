@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.niixlabs.unwind.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "common.MixinAbstractContainerMenu",
+    "common.MixinBlockableEventLoop",
+    "common.MixinBlockStateBase",
+    "common.MixinBoundTickingBlockEntity",
+    "common.MixinConnection",
+    "common.MixinCrashReport",
+    "common.MixinItemStack",
+    "common.MixinLevel",
+    "common.MixinRecipeManager"
+  ],
+  "client": [
+    "client.MixinBlockEntityRenderDispatcher",
+    "client.MixinEntityRenderDispatcher",
+    "client.MixinScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
